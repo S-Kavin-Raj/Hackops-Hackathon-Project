@@ -1,4 +1,4 @@
-const API_KEY = "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";
+const API_KEY = "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";
 const API_URL = "https://openrouter.ai/api/v1/chat/completions";
 const MODEL = "deepseek/deepseek-r1:free";
 const userInput = document.getElementById("userInput");

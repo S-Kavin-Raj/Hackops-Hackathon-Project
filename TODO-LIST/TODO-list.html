@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOTO-LIST-APP</title>
+    <link rel="stylesheet" href="TODO-list.css">
+    
+</head>
+
+<body>
+    <script src="TODO-list.js"></script>
+    <div class="container">
+        <div class="stats">
+            <div class="details">
+                <h2>TODO-APP</h2>
+                <p>keep it up</p>
+                <div class="stats-bar">
+                    <div id="progress"></div>
+                </div>
+            </div>
+            <div class="stats-num">
+                <p id="numbers">2 / 3</p>
+            </div>
+        </div>
+        <form>
+            <input id="input-box" type="text" placeholder="Write Your Tast">
+            <button type="button" id="submit" onclick="addtask()">+</button>
+        </form>
+    </div>
+    <ol id="task-list"></ol>
+    
+</body>
+
+</html>

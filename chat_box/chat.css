@@ -1,7 +1,6 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 20px;
   background: #2f2f2f;
   display: flex;
   justify-content: flex-end;
@@ -102,4 +101,17 @@ button:disabled {
   font-style: italic;
   opacity: 0.8;
 }
+#container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+#title_box{
+  text-align: center;
+  background-color: #007bff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  padding: 20px;
 
+}

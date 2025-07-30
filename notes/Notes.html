@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookskie</title>
+    <link rel="stylesheet" href="Notes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navi">
+        <h1>NOTES</h1>
+    </div>
+    <div id="bars">
+        <div class="bar">
+            <h1 class="title">MY FIRST PROJECT</h1>
+            <h4>BY:R.K.DHARINEESH</h4>
+            <p class="paragraph">A sleek and responsive Notes Web Application built using HTML, CSS, and JavaScript. It
+                allows
+                users to create, edit, and delete notes effortlessly. With a minimalist interface and intuitive user
+                experience, this project demonstrates strong front-end development skills and focuses on personal
+                productivity through digital organization.</p>
+            <button class="delete">Delete</button>
+        </div>
+    </div>
+
+    <button class="new-button">+</button>
+    <div class="overlay-background"></div>
+    <div class="overlay">
+        <h2>Add a Note</h2>
+        <center>
+            <input type="text" id="note-title" placeholder="Title"></input>
+            <textarea id="note-content" placeholder="Write your note here..."></textarea>
+        </center>
+        <div class="overlay-buttons">
+            <button class="save-button">Save</button>
+            <button id="cancel-button">Cancel</button>
+        </div>
+
+    </div>
+
+
+    <script src="Notes.js"></script>
+
+</body>
+
+</html>
