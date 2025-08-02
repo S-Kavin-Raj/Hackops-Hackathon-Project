@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Career Mentor</title>
+    <link rel="stylesheet" href="mainpage.css" />
+  </head>
+  <body>
+    <script src="mainpage.js"></script>
+    <div id="team-logo">
+      <img class="teamlogo-image" src="hackopsimage.jpg" />
+    </div>
+
+    <button id="menu-button">
+      <img class="menulogo-image" src="menubutton.png" />
+    </button>
+    
+    <button id="home-button">
+      <img class="homelogo-image" src="homebutton.png" />
+    </button>
+
+    <div class="mentor-header">AI Career Mentor</div>
+  
+    <div class="mentor-container">
+      <div class="mentor-field">
+        <label class="mentor-label" for="mentorSkills">Your Top Skills</label>
+        <input
+          class="mentor-input"
+          id="mentorSkills"
+          placeholder="e.g. Python, Communication, Design"
+        />
+        <button
+          class="mic-btn"
+          onclick="startVoiceInput('mentorSkills')"
+        ></button>
+      </div>
+
+      <div class="mentor-field">
+        <label class="mentor-label" for="mentorInterests">Your Interests</label>
+        <input
+          class="mentor-input"
+          id="mentorInterests"
+          placeholder="e.g. AI, Marketing, Web Development"
+        />
+        <button
+          class="mic-btn"
+          onclick="startVoiceInput('mentorInterests')"
+        ></button>
+      </div>
+
+      <div class="mentor-field">
+        <label class="mentor-label" for="mentorGoals">Your Career Goals</label>
+        <input
+          class="mentor-input"
+          id="mentorGoals"
+          placeholder="e.g. Become a Data Scientist, Start a business"
+        />
+        <button
+          class="mic-btn"
+          onclick="startVoiceInput('mentorGoals')"
+        ></button>
+      </div>
+
+      <button class="mentor-btn" onclick="getMentorAdvice()">
+        Get My Career Roadmap
+      </button>
+      <div class="mentor-result" id="mentorResult">
+        Your personalized career roadmap will appear here.
+      </div>
+    </div>
+  </body>
+</html>
